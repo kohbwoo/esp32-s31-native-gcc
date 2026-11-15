@@ -1,0 +1,41 @@
+== native Lua build: gcc 15.1.0 -std=gnu99 -O2 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_USE_LINUX, 6 MB available
+1562s  lapi.c
+1364s  lcode.c
+13s  lctype.c
+699s  ldebug.c
+825s  ldo.c
+155s  ldump.c
+241s  lfunc.c
+1144s  lgc.c
+504s  llex.c
+140s  lmem.c
+452s  lobject.c
+10s  lopcodes.c
+1284s  lparser.c
+327s  lstate.c
+355s  lstring.c
+637s  ltable.c
+315s  ltm.c
+256s  lundump.c
+2125s  lvm.c
+61s  lzio.c
+967s  lauxlib.c
+438s  lbaselib.c
+161s  lcorolib.c
+311s  ldblib.c
+639s  liolib.c
+439s  lmathlib.c
+282s  loadlib.c
+222s  loslib.c
+1365s  lstrlib.c
+294s  ltablib.c
+243s  lutf8lib.c
+33s  linit.c
+287s  lua.c
+47s  link
+== total 18205s
+-rwxr-xr-x 1 root root 693240 Nov 15 09:21 lua
+Lua 5.4.9  Copyright (C) 1994-2026 Lua.org, PUC-Rio
+lua sum 1e6	500000500000	309 ms
+lua fib(25)	75025	221 ms
+rc=0 total=18206s

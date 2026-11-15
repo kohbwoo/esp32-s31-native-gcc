@@ -1,0 +1,27 @@
+== native CoreMark build: gcc 15.1.0 -O2, 6 MB available
+228s  core_list_join.c
+116s  core_main.c
+243s  core_matrix.c
+104s  core_state.c
+127s  core_util.c
+63s  posix/core_portme.c
+5s  link
+== total 886s
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 11322
+Total time (secs): 11.322000
+Iterations/Sec   : 971.559795
+Iterations       : 11000
+Compiler version : GCC15.1.0
+Compiler flags   : -O2 (native, on ESP32-S31)
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 971.559795 / GCC15.1.0 -O2 (native, on ESP32-S31) / Heap
+rc=0 total=898s
