@@ -7,6 +7,10 @@ all of Lua 5.4.
 
 Prebuilt binaries are on the [Releases](../../releases) page. The Docker scripts here rebuild them from source.
 
+
+https://github.com/user-attachments/assets/095b190f-8c83-4f49-9565-28a518424df0
+
+
 ```
 root@esp32s31:~# gcc -v 2>&1 | tail -1
 gcc version 15.1.0 (GCC)
